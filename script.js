@@ -150,7 +150,7 @@ function displayAllMovies() {
   
       // Fetch movie details from the OMDB API
       const apiKey = '3d10646d'; // Replace with your API key
-      const apiUrl = `http://www.omdbapi.com/?t=${movie.title}&apikey=${apiKey}`;
+      const apiUrl = `https://www.omdbapi.com/?t=${movie.title}&apikey=${apiKey}`;
       try {
         const response = await fetch(apiUrl);
         const data = await response.json();
