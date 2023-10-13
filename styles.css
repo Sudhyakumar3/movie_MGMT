@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white
+}
+
+/* Add styles for the grid layout */
+.movie-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style grid headers */
+  .grid-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the 'Have Watched' checkbox */
+  input[type="checkbox"] {
+    transform: scale(1.5); /* Make the checkbox larger */
+  }
+  
+  /* Add padding and border to grid items */
+  .movie-grid > div {
+    padding: 10px;
+  }
+
+
+  header {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand-logo {
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center !important; /* Center vertically */
+    justify-content: center !important; /* Center horizontally */
+}
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    justify-content: center;
+  }
+  
+  .nav__content {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: 0.3s;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  
+  
